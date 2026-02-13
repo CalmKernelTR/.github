@@ -25,7 +25,7 @@ Private repos powering 3-VPS infrastructure with WireGuard mesh VPN.
 | istanbul-vault | Offsite backup orchestrator — Istanbul workstation pulls VPS images to local + R2 |
 | SIEM-Integrated | Wazuh SIEM deployment — custom rules, decoders, Cloudflare active response |
 | vps-notification-scripts | Telegram + email notifications — daily VPS reports, alert forwarding |
-| Pinky | Centralized secret & credential management with nightly sync |
+| xXxXxX | Centralized secret & credential management with nightly sync |
 | Infrastructure-Checkup | Systematic infrastructure audit reports and health tracking |
 
 ## MCP Servers
@@ -34,10 +34,10 @@ Model Context Protocol servers for Claude Code integration.
 
 | Project | Description |
 |---------|-------------|
-| [nextdns-mcp](https://github.com/CalmKernelTR/nextdns-mcp) | NextDNS API — analytics, logs, allow/block management |
-| [proton-smtp-mcp](https://github.com/CalmKernelTR/proton-smtp-mcp) | Proton Mail SMTP — send emails from Claude Code |
-| [linkedin-mcp-server](https://github.com/CalmKernelTR/linkedin-mcp-server) | LinkedIn personal profile — posts, engagement, connections |
-| [linkedin-company-mcp](https://github.com/CalmKernelTR/linkedin-company-mcp) | LinkedIn company page — org posts, followers, analytics |
+| [nextdns-mcp]| NextDNS API — analytics, logs, allow/block management |
+| [proton-smtp-mcp] | Proton Mail SMTP — send emails from Claude Code |
+| [linkedin-mcp-server] | LinkedIn personal profile — posts, engagement, connections |
+| [linkedin-company-mcp]| LinkedIn company page — org posts, followers, analytics |
 
 ## Projects
 
@@ -55,7 +55,7 @@ This organization showcases **transparent human-AI collaboration**:
 - Code reviews, architecture decisions, and tests are joint efforts
 - Full attribution via `Co-Authored-By` in every commit
 
-**Stack:** Ubuntu 24.04 / Docker / WireGuard / Wazuh SIEM / Claude Code CLI
+**Stack:** Ubuntu / Docker / WireGuard / Wazuh SIEM / Claude Code CLI
 
 ---
 
