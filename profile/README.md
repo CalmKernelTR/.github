@@ -1,32 +1,64 @@
-# CalmKernel 🐧
+# CalmKernel
 
-**Open source tools for Linux system administration.**
+**Linux system administration, VPS infrastructure & AI-powered development tools.**
 
 > *Human + AI collaboration for better software.*
 
 ---
 
-## 🚀 Projects / Projeler
+## Open Source
 
-| Project | Description | Status |
-|---------|-------------|--------|
-| [bigfive-updater](https://github.com/ahm3t0t/bigfive-updater) | Multi-distro Linux update tool (APT, DNF, Pacman, Zypper, APK) | ✅ Active |
-| [claude-code-skills](https://github.com/ahm3t0t/claude-code-skills) | Claude Code skill collection (74+ skills) | ✅ Active |
+| Project | Description |
+|---------|-------------|
+| [bigfive-updater](https://github.com/CalmKernelTR/bigfive-updater) | Multi-distro Linux update tool — APT, DNF, Pacman, Zypper, APK |
 
-## 🤝 Human + AI
+## Infrastructure & Security
+
+Private repos powering 3-VPS infrastructure with WireGuard mesh VPN.
+
+| Project | Description |
+|---------|-------------|
+| Claude-Turbo | Unified Claude Code ecosystem installer — 79 skills, 8 hooks, 5 agents, 5 MCP servers |
+| vps-security | VPS security scanning — Lynis, rkhunter, CIS benchmarks, automated reports |
+| vps-backup | 3-2-1 backup strategy — age encrypted, PostgreSQL dumps, R2 offsite |
+| vps-imager | Full disk image backup — zero-temp streaming to R2 via zstd pipeline |
+| istanbul-vault | Offsite backup orchestrator — Istanbul workstation pulls VPS images to local + R2 |
+| SIEM-Integrated | Wazuh SIEM deployment — custom rules, decoders, Cloudflare active response |
+| vps-notification-scripts | Telegram + email notifications — daily VPS reports, alert forwarding |
+| Pinky | Centralized secret & credential management with nightly sync |
+| Infrastructure-Checkup | Systematic infrastructure audit reports and health tracking |
+
+## MCP Servers
+
+Model Context Protocol servers for Claude Code integration.
+
+| Project | Description |
+|---------|-------------|
+| [nextdns-mcp](https://github.com/CalmKernelTR/nextdns-mcp) | NextDNS API — analytics, logs, allow/block management |
+| [proton-smtp-mcp](https://github.com/CalmKernelTR/proton-smtp-mcp) | Proton Mail SMTP — send emails from Claude Code |
+| [linkedin-mcp-server](https://github.com/CalmKernelTR/linkedin-mcp-server) | LinkedIn personal profile — posts, engagement, connections |
+| [linkedin-company-mcp](https://github.com/CalmKernelTR/linkedin-company-mcp) | LinkedIn company page — org posts, followers, analytics |
+
+## Projects
+
+| Project | Description |
+|---------|-------------|
+| datawash | Data cleaning CLI & SaaS platform — KVKK/GDPR anonymization, FastAPI + React |
+| ai-chat-archive | AI chat migration pipeline — unified archive for ChatGPT, Gemini, Grok exports |
+| ContextForHistory | Project context & session documentation hub |
+
+## Human + AI
 
 This organization showcases **transparent human-AI collaboration**:
 
-- All commits are co-authored with [Claude](https://github.com/claude) (Anthropic)
-- Code reviews, documentation, and tests are joint efforts
-- Full attribution via `Co-Authored-By` in commits
+- All commits are co-authored with Claude (Anthropic)
+- Code reviews, architecture decisions, and tests are joint efforts
+- Full attribution via `Co-Authored-By` in every commit
 
-## 📫 Contact / İletişim
-
-- **Website:** [calmkernel.tr](https://calmkernel.tr/)
-- **Email:** meet@calmkernel.tr
-- **Location:** Türkiye 🇹🇷
+**Stack:** Ubuntu 24.04 / Docker / WireGuard / Wazuh SIEM / Claude Code CLI
 
 ---
 
-<sub>*"Tembel ama takıntılı adminin en yakın dostu."*</sub>
+**Website:** [calmkernel.tr](https://calmkernel.tr/) | **Email:** meet@calmkernel.tr | Turkiye
+
+<sub>*"Tembel ama takintili adminin en yakin dostu."*</sub>
