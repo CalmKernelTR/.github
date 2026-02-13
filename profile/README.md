@@ -18,14 +18,13 @@ Private repos powering 3-VPS infrastructure with WireGuard mesh VPN.
 
 | Project | Description |
 |---------|-------------|
-| Claude-Turbo | Unified Claude Code ecosystem installer — 79 skills, 8 hooks, 5 agents, 5 MCP servers |
+| Claude-Turbo | Unified Claude Code ecosystem installer — skills, hooks, agents, MCP servers |
 | vps-security | VPS security scanning — Lynis, rkhunter, CIS benchmarks, automated reports |
-| vps-backup | 3-2-1 backup strategy — age encrypted, PostgreSQL dumps, R2 offsite |
-| vps-imager | Full disk image backup — zero-temp streaming to R2 via zstd pipeline |
-| istanbul-vault | Offsite backup orchestrator — Istanbul workstation pulls VPS images to local + R2 |
+| vps-backup | 3-2-1 backup strategy — age encrypted, PostgreSQL dumps, offsite sync |
+| vps-imager | Full disk image backup — streaming to cloud storage via zstd pipeline |
+| istanbul-vault | Offsite backup orchestrator — local workstation to cloud storage |
 | SIEM-Integrated | Wazuh SIEM deployment — custom rules, decoders, Cloudflare active response |
 | vps-notification-scripts | Telegram + email notifications — daily VPS reports, alert forwarding |
-| xXxXxX | Centralized secret & credential management with nightly sync |
 | Infrastructure-Checkup | Systematic infrastructure audit reports and health tracking |
 
 ## MCP Servers
@@ -34,10 +33,10 @@ Model Context Protocol servers for Claude Code integration.
 
 | Project | Description |
 |---------|-------------|
-| [nextdns-mcp]| NextDNS API — analytics, logs, allow/block management |
-| [proton-smtp-mcp] | Proton Mail SMTP — send emails from Claude Code |
-| [linkedin-mcp-server] | LinkedIn personal profile — posts, engagement, connections |
-| [linkedin-company-mcp]| LinkedIn company page — org posts, followers, analytics |
+| nextdns-mcp | NextDNS API — analytics, logs, allow/block management |
+| proton-smtp-mcp | Proton Mail SMTP — send emails from Claude Code |
+| linkedin-mcp-server | LinkedIn personal profile — posts, engagement, connections |
+| linkedin-company-mcp | LinkedIn company page — org posts, followers, analytics |
 
 ## Projects
 
